@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 
 
-const AddNewTo=({addTodo})=>
+const AddNwTo=({addTodo})=>
 {
     const [todos,setTodos]=useState('')
     const handleSubmit=(e)=>{
@@ -22,4 +22,4 @@ const AddNewTo=({addTodo})=>
     )
 
 }
-export default AddNewTo;
+export default AddNwTo;
